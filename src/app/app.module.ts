@@ -4,15 +4,29 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SplashComponent } from './splash/splash.component';
+import { routing } from './app.routing';
+import { AboutComponent } from './about/about.component';
+import { EditPostComponent } from './edit-post/edit-post.component';
+import { DetailPostComponent } from './detail-post/detail-post.component';
+import { NewPostComponent } from './new-post/new-post.component';
+import { BulletinBoardComponent } from './bulletin-board/bulletin-board.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SplashComponent,
+    AboutComponent,
+    EditPostComponent,
+    DetailPostComponent,
+    NewPostComponent,
+    BulletinBoardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

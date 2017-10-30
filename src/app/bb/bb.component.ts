@@ -9,11 +9,11 @@ import { Category } from '../category.model';
 
 export class BBComponent {
   categories: Category[] = [
-    new Category('YA'),
-    new Category('Mystery/Thriller'),
-    new Category('Sci Fi'),
-    new Category('Nonfiction'),
-    new Category('Fiction')
+    new Category('YA', 1),
+    new Category('Mystery/Thriller', 2),
+    new Category('Sci Fi', 3),
+    new Category('Nonfiction', 4),
+    new Category('Fiction', 5)
   ];
 
 }

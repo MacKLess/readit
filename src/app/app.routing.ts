@@ -16,7 +16,11 @@ const appRoutes: Routes = [
   {
     path: 'bb',
     component: BBComponent
-  }
+  },
+  // {
+  //   path: 'categories/:id',
+  //   component: DetailPostComponent
+  // }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

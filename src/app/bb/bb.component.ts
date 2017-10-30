@@ -15,4 +15,5 @@ export class BBComponent {
     new Category('Nonfiction'),
     new Category('Fiction')
   ];
+
 }

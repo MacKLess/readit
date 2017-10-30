@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Category } from './category.model';
+import { Post } from './post.model';
 
 @Component({
   selector: 'app-root',

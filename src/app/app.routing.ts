@@ -2,7 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SplashComponent } from './splash/splash.component';
 import { AboutComponent} from './about/about.component';
-import { BulletinBoardComponent } from './bulletin-board/bulletin-board.component';
+import { BBComponent } from './bb/bb.component';
 
 const appRoutes: Routes = [
   {
@@ -14,8 +14,8 @@ const appRoutes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'bulletin-board',
-    component: BulletinBoardComponent
+    path: 'bb',
+    component: BBComponent
   }
 ];
 

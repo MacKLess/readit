@@ -10,7 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { EditPostComponent } from './edit-post/edit-post.component';
 import { DetailPostComponent } from './detail-post/detail-post.component';
 import { NewPostComponent } from './new-post/new-post.component';
-import { BulletinBoardComponent } from './bulletin-board/bulletin-board.component';
+import { BBComponent } from './bb/bb.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { BulletinBoardComponent } from './bulletin-board/bulletin-board.componen
     EditPostComponent,
     DetailPostComponent,
     NewPostComponent,
-    BulletinBoardComponent
+    BBComponent
   ],
   imports: [
     BrowserModule,

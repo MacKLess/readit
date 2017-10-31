@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SplashComponent } from './splash/splash.component';
 import { AboutComponent} from './about/about.component';
 import { BBComponent } from './bb/bb.component';
+import { DetailPostComponent } from './detail-post/detail-post.component';
 
 const appRoutes: Routes = [
   {
@@ -17,10 +18,10 @@ const appRoutes: Routes = [
     path: 'bb',
     component: BBComponent
   },
-  // {
-  //   path: 'categories/:id',
-  //   component: DetailPostComponent
-  // }
+  {
+    path: 'categories/:id',
+    component: DetailPostComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

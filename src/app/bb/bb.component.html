@@ -1,5 +1,5 @@
 <h2>Bulletin Board Categories</h2>
-  <div *ngFor="let category of categories" class="panel panel-default">
+  <div *ngFor="let category of categories" (click)="goToDetailPage(Category)" class="panel panel-default">
     <div class="panel-body">
       <h4>{{category.name}}</h4>
   </div>
